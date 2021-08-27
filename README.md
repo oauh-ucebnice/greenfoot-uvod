@@ -64,6 +64,18 @@
 ## [Kapitola 4.11 A co dál?](040_greenfoot/110_co-dal.md)
 
 ---
+## Část 5: Shrnutí OOP a parametry metod
+
+<details><summary>Shrneme a zobecníme vaše dosavadní znalosti a&nbsp;doplníme použití parametrů a&nbsp;návratové hodnoty u&nbsp;metod.</summary>
+V této části knihy shrneme a zobecníme vaše dosavadní znalosti z objektového programování a zápisu kódu obecně.
+
+Doplníme také možnost použití parametrů a návratové hodnoty u metod, které jsme sice mnohokrát využívali, ale zatím je neumíme zapsat u svých vlastních metod a konstruktorů.</details>
+
+## [Kapitola 5.1 Více o objektovém programování](050_shrnuti/010_oop.md)
+
+## [Kapitola 5.2 Parametry a návratové hodnoty](050_shrnuti/020_parametry.md)
+
+---
 ## [Příloha A](pa_priloha-a/)
 ---
 ## [Souhrn](souhrn/)
