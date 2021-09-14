@@ -1,4 +1,4 @@
-# Učebnice Úvod do programování pro budoucí programátory
+# Greenfoot &mdash; Úvod do programování pro budoucí programátory
 
 ---
 ## Úvod
