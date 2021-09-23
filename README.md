@@ -39,9 +39,7 @@
  - [Kapitola 3.5: Vytváření objektů v kódu](030_java/05_new.md)
 
 ---
-## Část 4: Knihovna Greenfoot
-
-V&nbsp;této části učebnice podrobněji prozkoumáme možnosti, které nám nabízí knihovny frameworku Greenfoot pro tvorbu 2D her.
+## [Část 4: Knihovna Greenfoot](040_greenfoot/README.md)
 
  - [Kapitola 4.1 Souřadice ve hře](040_greenfoot/010_souradnice.md)
 
