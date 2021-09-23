@@ -41,6 +41,8 @@
 ---
 ## Část 4: Knihovna Greenfoot
 
+V&nbsp;této části učebnice podrobněji prozkoumáme možnosti, které nám nabízí knihovny frameworku Greenfoot pro tvorbu 2D her.
+
  - [Kapitola 4.1 Souřadice ve hře](040_greenfoot/010_souradnice.md)
 
  - [Kapitola 4.2 Ovládání aktéra a světa](040_greenfoot/020_akter-a-svet.md)
