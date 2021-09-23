@@ -1,1 +1,0 @@
-V&nbsp;této části učebnice podrobněji prozkoumáme možnosti, které nám nabízí knihovny frameworku Greenfoot pro tvorbu 2D her.
