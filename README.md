@@ -81,6 +81,23 @@ Doplníme také možnost použití parametrů a&nbsp;návratové hodnoty u&nbsp;
  - [Kapitola 5.2 Parametry a&nbsp;návratové hodnoty](050_shrnuti/020_parametry.md)
 
 ---
-## [Příloha A](pa_priloha-a/)
+## [Příloha A: Komplexní úlohy](pa_priloha-a/README.md)
+<details><summary>V&nbsp;této části knihy uvedeme několik komplexních úloh</summary>
+V&nbsp;této části knihy uvedeme několik komplexních úloh, které využívají znalosti ze všech předchozích částí. 
+
+Můžeš si tedy vyzkoušet vytvořit vlastní hru a&nbsp;zároveň si ověřit, jak jsi zvládl(a) učivo 1.&nbsp;ročníku.
+</details>
+
+- [Příklad: Proměnné, cykly, podmínky &mdash; Míčky](pa_priloha-a/promenne-cykly-podminky-micky.md)
+- [TODO: Příklad: Objekty a&nbsp;třídy](pa_priloha-a/objekty-tridy-zahrada.md)
+- [TODO: Příklad: Ovládání aktéra &mdash; Beruška zahradnice](pa_priloha-a/ovladani-aktera-beruska-zahradnice.md)
+- [TODO: Souhrnný úkol – hra Autíčko](pa_priloha-a/hra-auticko.md)
+- [TODO: Souhrnný úkol – hra Útěk ze ZOO](pa_priloha-a/hra-utek-ze-zoo.md)
+
 ---
-## [Souhrn](souhrn/)
+## [Souhrn učiva](souhrn/README.md)
+
+- [Souhrn učiva](souhrn/README.md)
+- [Souhrn učiva ve formátu PDF](uvod-pro1-souhrn.pdf)
+- [Souhrn učiva ve formátu ODT (Libre Office)](uvod-pro1-souhrn.odt)
+
