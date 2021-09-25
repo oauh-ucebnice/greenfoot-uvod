@@ -41,19 +41,23 @@
 ---
 ## [Část 4: Knihovna Greenfoot](040_greenfoot/README.md)
 
+<details><summary>Je čas se pořádně podívat na možnosti frameworku Greenfoot pro tvorbu 2D her.</summary>
+Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si ukážeme jak detekovat kolize aktérů.
+</details>
+
  - [Kapitola 4.1 Souřadice ve hře](040_greenfoot/010_souradnice.md)
 
  - [Kapitola 4.2 Ovládání aktéra a světa](040_greenfoot/020_akter-a-svet.md)
 
  - [Kapitola 4.3 Čtení informací z myši](040_greenfoot/030_mys.md)
 
- - [TODO: Kapitola 4.4 Čtení pokynů z klávesnice: pohyb](040_greenfoot/040_klavesnice-pohyb.md)
+ - [Kapitola 4.4 Čtení pokynů z klávesnice: pohyb](040_greenfoot/040_klavesnice-pohyb.md)
 
- - [TODO: Kapitola 4.5 Čtení pokynů z klávesnice: spuštění akce](040_greenfoot/050_klavesnice-akce.md)
+ - [Kapitola 4.5 Čtení pokynů z klávesnice: spuštění akce](040_greenfoot/050_klavesnice-akce.md)
 
  - [TODO: Kapitola 4.6 Detekce kolize](040_greenfoot/060_kolize.md)
 
- - [TODO: Kapitola 4.7 Kliknutí na aktéra](040_greenfoot/070_kliknuti.md)
+ - [Kapitola 4.7 Kliknutí na aktéra](040_greenfoot/070_kliknuti.md)
 
  - [TODO: Kapitola 4.8 Vlastní obrázky](040_greenfoot/080_vlastni-obrazky.md)
 
@@ -61,12 +65,13 @@
 
  - [TODO: Kapitola 4.10 Publikování hry](040_greenfoot/100_publikovani-hry.md)
 
- - [TODO: Kapitola 4.11 A co dál?](040_greenfoot/110_co-dal.md)
+ - [Kapitola 4.11 A co dál?](040_greenfoot/110_co-dal.md)
 
 ---
 ## Část 5: Shrnutí OOP a parametry metod
 
 <details><summary>Shrneme a zobecníme vaše dosavadní znalosti a&nbsp;doplníme použití parametrů a&nbsp;návratové hodnoty u&nbsp;metod.</summary>
+
 V této části knihy shrneme a zobecníme vaše dosavadní znalosti z objektového programování a zápisu kódu obecně.
 
 Doplníme také možnost použití parametrů a návratové hodnoty u metod, které jsme sice mnohokrát využívali, ale zatím je neumíme zapsat u svých vlastních metod a konstruktorů.</details>

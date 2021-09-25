@@ -1,6 +1,9 @@
 ## Část 4: Knihovna Greenfoot
 
-V&nbsp;této části učebnice podrobněji prozkoumáme možnosti, které nám nabízí knihovny frameworku Greenfoot pro tvorbu 2D her.
+Je čas se pořádně podívat na možnosti frameworku Greenfoot pro tvorbu 2D her.
+
+Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si ukážeme jak detekovat kolize aktérů.
+
 
  - [Kapitola 4.1 Souřadice ve hře](040_greenfoot/010_souradnice.md)
 
