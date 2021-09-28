@@ -81,18 +81,20 @@ Doplníme také možnost použití parametrů a&nbsp;návratové hodnoty u&nbsp;
  - [Kapitola 5.2 Parametry a&nbsp;návratové hodnoty](050_shrnuti/020_parametry.md)
 
 ---
-## [Příloha A: Komplexní úlohy](pa_priloha-a/README.md)
+## [Příloha A: Komplexní úlohy](810_priloha-a/README.md)
 <details><summary>V&nbsp;této části knihy uvedeme několik komplexních úloh</summary>
 V&nbsp;této části knihy uvedeme několik komplexních úloh, které využívají znalosti ze všech předchozích částí. 
 
 Můžeš si tedy vyzkoušet vytvořit vlastní hru a&nbsp;zároveň si ověřit, jak jsi zvládl(a) učivo 1.&nbsp;ročníku.
 </details>
 
-- [Příklad: Proměnné, cykly, podmínky &mdash; Míčky](pa_priloha-a/promenne-cykly-podminky-micky.md)
-- [TODO: Příklad: Objekty a&nbsp;třídy](pa_priloha-a/objekty-tridy-zahrada.md)
-- [TODO: Příklad: Ovládání aktéra &mdash; Beruška zahradnice](pa_priloha-a/ovladani-aktera-beruska-zahradnice.md)
-- [TODO: Souhrnný úkol – hra Autíčko](pa_priloha-a/hra-auticko.md)
-- [TODO: Souhrnný úkol – hra Útěk ze ZOO](pa_priloha-a/hra-utek-ze-zoo.md)
+- [Příklad: Proměnné, cykly, podmínky &mdash; Míčky](810_priloha-a/010_promenne-cykly-podminky-micky.md)
+- [Příklad: Ovládání aktéra &mdash; Beruška zahradnice](810_priloha-a/020_ovladani-aktera-beruska-zahradnice.md)
+- [TODO: Souhrnný úkol – hra Autíčko](810_priloha-a/030_hra-auticko.md)
+- [TODO: Souhrnný úkol – hra Útěk ze ZOO](810_priloha-a/040_hra-utek-ze-zoo.md)
+
+Další příklady:
+- [Včelka v&nbsp;pralese &rarr; Bermotech.com &rarr; Java Game Making Tutorial](https://www.bermotech.com/java-game-making-tutorial/)
 
 ---
 ## [Souhrn učiva](souhrn/README.md)
