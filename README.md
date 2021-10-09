@@ -1,7 +1,7 @@
 # Greenfoot &mdash; Úvod do programování pro budoucí programátory
 
 ---
-## Úvod
+## [Úvod](000_uvod/README.md)
 
 - [O této knize](000_uvod/01_o-knize.md)
 
@@ -10,7 +10,7 @@
 - [Příprava prostředí](000_uvod/03_priprava.md)
 
 ---
-## Část 1: Seznámení s Greenfootem
+## [Část 1: Seznámení s Greenfootem](010_seznameni-s-greenfootem/README.md)
 
 - [Kapitola 1.1: Svět a&nbsp;aktéři](010_seznameni-s-greenfootem/01_svet-a-akteri.md)
 
