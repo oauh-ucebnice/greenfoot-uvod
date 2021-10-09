@@ -68,7 +68,7 @@ Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si u
  - [Kapitola 4.11 A&nbsp;co dál?](040_greenfoot/110_co-dal.md)
 
 ---
-## Část 5: Shrnutí OOP a&nbsp;parametry metod
+## [Část 5: Shrnutí OOP a&nbsp;parametry metod](050_shrnuti/README.md)
 
 <details><summary>Shrneme a&nbsp;zobecníme vaše dosavadní znalosti a&nbsp;doplníme použití parametrů a&nbsp;návratové hodnoty u&nbsp;metod.</summary>
 
@@ -90,8 +90,8 @@ Můžeš si tedy vyzkoušet vytvořit vlastní hru a&nbsp;zároveň si ověřit,
 
 - [Příklad: Proměnné, cykly, podmínky &mdash; Míčky](810_priloha-a/010_promenne-cykly-podminky-micky.md)
 - [Příklad: Ovládání aktéra &mdash; Beruška zahradnice](810_priloha-a/020_ovladani-aktera-beruska-zahradnice.md)
-- [TODO: Souhrnný úkol – hra Autíčko](810_priloha-a/030_hra-auticko.md)
-- [TODO: Souhrnný úkol – hra Útěk ze ZOO](810_priloha-a/040_hra-utek-ze-zoo.md)
+- [Souhrnný úkol – hra Autíčko](810_priloha-a/030_hra-auticko.md)
+- [Souhrnný úkol – hra Útěk ze ZOO](810_priloha-a/040_hra-utek-ze-zoo.md)
 
 Další příklady:
 - [Včelka v&nbsp;pralese &rarr; Bermotech.com &rarr; Java Game Making Tutorial](https://www.bermotech.com/java-game-making-tutorial/)
