@@ -10,7 +10,7 @@
 - [Příprava prostředí](000_uvod/03_priprava.md)
 
 ---
-## [Část 1: Seznámení s Greenfootem](010_seznameni-s-greenfootem/README.md)
+## [Část 1: Seznámení s Greenfootem](010_seznameni-s-greenfootem/)
 
 - [Kapitola 1.1: Svět a&nbsp;aktéři](010_seznameni-s-greenfootem/01_svet-a-akteri.md)
 
@@ -19,27 +19,27 @@
 - [Kapitola 1.3: První pohled do kódu](010_seznameni-s-greenfootem/03_kod.md)
 
 ---
-## [Část 2: Proměnné, cykly a podmínky](020_promenne-a-cykly/README.md)
+## [Část 2: Proměnné, cykly a podmínky](020_promenne-a-cykly/)
 
  - [Kapitola 2.1: Proměnné a&nbsp;datové typy](020_promenne-a-cykly/010_promenne-datove-typy.md)
  
  - [Kapitola 2.1: Podmíněný příkaz](020_promenne-a-cykly/020_if.md)
 
 ---
-## [Část 3: Třídy a objekty](030_java/README.md)
+## [Část 3: Třídy a objekty](030_tridy/)
 
- - [Kapitola 3.1: Třídy a&nbsp;objekty](030_java/01_tridy.md)
+ - [Kapitola 3.1: Třídy a&nbsp;objekty](030_tridy/01_tridy.md)
  
- - [Kapitola 3.2: Metody](030_java/02_metody.md)
+ - [Kapitola 3.2: Metody](030_tridy/02_metody.md)
 
- - [Kapitola 3.3: Atributy](030_java/03_atributy.md)
+ - [Kapitola 3.3: Atributy](030_tridy/03_atributy.md)
 
- - [Kapitola 3.4: Konstruktor](030_java/04_konstruktor.md)
+ - [Kapitola 3.4: Konstruktor](030_tridy/04_konstruktor.md)
 
- - [Kapitola 3.5: Vytváření objektů v&nbsp;kódu](030_java/05_new.md)
+ - [Kapitola 3.5: Vytváření objektů v&nbsp;kódu](030_tridy/05_new.md)
 
 ---
-## [Část 4: Knihovna Greenfoot](040_greenfoot/README.md)
+## [Část 4: Knihovna Greenfoot](040_greenfoot/)
 
 <details><summary>Je čas se pořádně podívat na možnosti frameworku Greenfoot pro tvorbu 2D her.</summary>
 Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si ukážeme jak detekovat kolize aktérů.
@@ -68,7 +68,7 @@ Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si u
  - [Kapitola 4.11 A&nbsp;co dál?](040_greenfoot/110_co-dal.md)
 
 ---
-## [Část 5: Shrnutí OOP a&nbsp;parametry metod](050_shrnuti/README.md)
+## [Část 5: Shrnutí OOP a&nbsp;parametry metod](050_shrnuti/)
 
 <details><summary>Shrneme a&nbsp;zobecníme vaše dosavadní znalosti a&nbsp;doplníme použití parametrů a&nbsp;návratové hodnoty u&nbsp;metod.</summary>
 
@@ -81,7 +81,7 @@ Doplníme také možnost použití parametrů a&nbsp;návratové hodnoty u&nbsp;
  - [Kapitola 5.2 Parametry a&nbsp;návratové hodnoty](050_shrnuti/020_parametry.md)
 
 ---
-## [Příloha A: Komplexní úlohy](810_priloha-a/README.md)
+## [Příloha A: Komplexní úlohy](810_priloha-a/)
 <details><summary>V&nbsp;této části knihy uvedeme několik komplexních úloh</summary>
 V&nbsp;této části knihy uvedeme několik komplexních úloh, které využívají znalosti ze všech předchozích částí. 
 
@@ -97,9 +97,8 @@ Další příklady:
 - [Včelka v&nbsp;pralese &rarr; Bermotech.com &rarr; Java Game Making Tutorial](https://www.bermotech.com/java-game-making-tutorial/)
 
 ---
-## [Souhrn učiva](souhrn/README.md)
+## [Souhrn učiva](souhrn/)
 
-- [Souhrn učiva](souhrn/README.md)
-- [Souhrn učiva ve formátu PDF](uvod-pro1-souhrn.pdf)
-- [Souhrn učiva ve formátu ODT (Libre Office)](uvod-pro1-souhrn.odt)
+- [Souhrn učiva ve formátu PDF](souhrn/uvod-pro1-souhrn.pdf)
+- [Souhrn učiva ve formátu ODT (Libre Office)](souhrn/uvod-pro1-souhrn.odt)
 
