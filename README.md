@@ -18,6 +18,8 @@
 
 - [Kapitola 1.3: První pohled do kódu](010_seznameni-s-greenfootem/03_kod.md)
 
+- [Kapitola 1.4: Projekt: Letecká show](010_seznameni-s-greenfootem/04_prj-letecka-show.md)
+
 ---
 ## [Část 2: Proměnné, cykly a podmínky](020_promenne-a-cykly/)
 
