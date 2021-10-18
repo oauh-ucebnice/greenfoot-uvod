@@ -23,7 +23,17 @@
 
  - [Kapitola 2.1: Proměnné a&nbsp;datové typy](020_promenne-a-cykly/010_promenne-datove-typy.md)
  
- - [Kapitola 2.1: Podmíněný příkaz](020_promenne-a-cykly/020_if.md)
+ - [Kapitola 2.2: Podmíněný příkaz](020_promenne-a-cykly/020_if.md)
+
+ - [Kapitola 2.3: Zápis podmínek](020_promenne-a-cykly/030_podminky.md)
+ 
+ - [Kapitola 2.4: Projekt: Sněžení](020_promenne-a-cykly/040_prj-snezeni-1.md)
+ 
+ - [Kapitola 2.5: Cyklus `for`](020_promenne-a-cykly/050_for.md)
+ 
+ - [Kapitola 2.6: Cyklus `while`](020_promenne-a-cykly/060_while.md)
+ 
+ - [Kapitola 2.7: Komentáře](020_promenne-a-cykly/070_komentare.md)
 
 ---
 ## [Část 3: Třídy a objekty](030_tridy/)
