@@ -21,34 +21,34 @@
 - [Kapitola 1.4: Projekt: Letecká show](010_seznameni-s-greenfootem/040_prj-letecka-show.md)
 
 ---
-## [Část 2: Proměnné, cykly a podmínky](020_promenne-a-cykly/)
+## [Část 2: Třídy a objekty](020_tridy/)
 
- - [Kapitola 2.1: Proměnné a&nbsp;datové typy](020_promenne-a-cykly/010_promenne-datove-typy.md)
+ - [Kapitola 2.1: Třídy a&nbsp;objekty](020_tridy/01_tridy.md)
  
- - [Kapitola 2.2: Podmíněný příkaz](020_promenne-a-cykly/020_if.md)
+ - [Kapitola 2.2: Metody](020_tridy/02_metody.md)
 
- - [Kapitola 2.3: Zápis podmínek](020_promenne-a-cykly/030_podminky.md)
- 
- - [Kapitola 2.4: Projekt: Sněžení](020_promenne-a-cykly/040_prj-snezeni-1.md)
- 
- - [Kapitola 2.5: Cyklus `for`](020_promenne-a-cykly/050_for.md)
- 
- - [Kapitola 2.6: Cyklus `while`](020_promenne-a-cykly/060_while.md)
- 
- - [Kapitola 2.7: Komentáře](020_promenne-a-cykly/070_komentare.md)
+ - [Kapitola 2.3: Atributy](020_tridy/03_atributy.md)
+
+ - [Kapitola 2.4: Konstruktor](020_tridy/04_konstruktor.md)
+
+ - [Kapitola 2.5: Vytváření objektů v&nbsp;kódu](020_tridy/05_new.md)
 
 ---
-## [Část 3: Třídy a objekty](030_tridy/)
+## [Část 3: Proměnné, cykly a podmínky](030_promenne-a-cykly/)
 
- - [Kapitola 3.1: Třídy a&nbsp;objekty](030_tridy/01_tridy.md)
+ - [Kapitola 3.1: Proměnné a&nbsp;datové typy](030_promenne-a-cykly/010_promenne-datove-typy.md)
  
- - [Kapitola 3.2: Metody](030_tridy/02_metody.md)
+ - [Kapitola 3.2: Podmíněný příkaz](030_promenne-a-cykly/020_if.md)
 
- - [Kapitola 3.3: Atributy](030_tridy/03_atributy.md)
-
- - [Kapitola 3.4: Konstruktor](030_tridy/04_konstruktor.md)
-
- - [Kapitola 3.5: Vytváření objektů v&nbsp;kódu](030_tridy/05_new.md)
+ - [Kapitola 3.3: Zápis podmínek](030_promenne-a-cykly/030_podminky.md)
+ 
+ - [Kapitola 3.4: Projekt: Sněžení](030_promenne-a-cykly/040_prj-snezeni-1.md)
+ 
+ - [Kapitola 3.5: Cyklus `for`](030_promenne-a-cykly/050_for.md)
+ 
+ - [Kapitola 3.6: Cyklus `while`](030_promenne-a-cykly/060_while.md)
+ 
+ - [Kapitola 2.7: Komentáře](020_promenne-a-cykly/070_komentare.md)
 
 ---
 ## [Část 4: Knihovna Greenfoot](040_greenfoot/)
