@@ -48,7 +48,7 @@
  
  - [Kapitola 3.6: Cyklus `while`](030_promenne-a-cykly/060_while.md)
  
- - [Kapitola 2.7: Komentáře](020_promenne-a-cykly/070_komentare.md)
+ - [Kapitola 3.7: Komentáře](020_promenne-a-cykly/070_komentare.md)
 
 ---
 ## [Část 4: Knihovna Greenfoot](040_greenfoot/)
