@@ -34,21 +34,23 @@
  - [Kapitola 2.5: Vytváření objektů v&nbsp;kódu](020_tridy/05_new.md)
 
 ---
-## [Část 3: Proměnné, cykly a podmínky](030_promenne-a-cykly/)
+## [Část 3: Proměnné, cykly a podmínky](030_promenne-podminky-cykly/)
 
- - [Kapitola 3.1: Proměnné a&nbsp;datové typy](030_promenne-a-cykly/010_promenne-datove-typy.md)
+ - [Kapitola 3.1: Proměnné a&nbsp;datové typy](030_promenne-podminky-cykly/010_promenne-datove-typy.md)
  
- - [Kapitola 3.2: Podmíněný příkaz](030_promenne-a-cykly/020_if.md)
+ - [Kapitola 3.2: Podmíněný příkaz](030_promenne-podminky-cykly/020_if.md)
 
- - [Kapitola 3.3: Zápis podmínek](030_promenne-a-cykly/030_podminky.md)
+ - [Kapitola 3.3: Zápis podmínek](030_promenne-podminky-cykly/030_podminky.md)
  
- - [Kapitola 3.4: Projekt: Sněžení](030_promenne-a-cykly/040_prj-snezeni-1.md)
+ - [Kapitola 3.4: Projekt: Sněžení](030_promenne-podminky-cykly/040_prj-snezeni-1.md)
  
- - [Kapitola 3.5: Cyklus `for`](030_promenne-a-cykly/050_for.md)
+ - [Kapitola 3.5: Projekt: Ping pong](030_promenne-podminky-cykly/045_prj-pingpong.md)
  
- - [Kapitola 3.6: Cyklus `while`](030_promenne-a-cykly/060_while.md)
+ - [Kapitola 3.6: Cyklus `for`](030_promenne-podminky-cykly/050_for.md)
  
- - [Kapitola 3.7: Komentáře](020_promenne-a-cykly/070_komentare.md)
+ - [Kapitola 3.7: Cyklus `while`](030_promenne-podminky-cykly/060_while.md)
+ 
+ - [Kapitola 3.8: Komentáře](030_promenne-podminky-cykly/070_komentare.md)
 
 ---
 ## [Část 4: Knihovna Greenfoot](040_greenfoot/)
