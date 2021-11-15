@@ -27,6 +27,7 @@
  > Veškeré názvy záměrně píšeme zde v&nbsp;zadání malými písmeny s&nbsp;mezerami a&nbsp;diakritikou. Do kódu je piš v&nbsp;souladu s&nbsp;konvencemi Javy!
 
 <details><summary>První nápověda: Postup</summary>
+
 Připrav si aktéra „vločka“:
 
  - Vločka bude mít konstruktor a&nbsp;v&nbsp;něm se otočí o&nbsp;90&nbsp;°C.
@@ -38,6 +39,7 @@ Připrav si aktéra „vločka“:
 Umísti do světa dvě vločky:
  - V&nbsp;konstruktoru světa vytvoř dvě instance třídy „vločka“.
  - Vločky umísti na horní okraj obrazovky na pozice na ose X: `200`, `400`.
+
 </details>
 
 <details><summary>Druhá nápověda: Kód</summary>
@@ -95,16 +97,19 @@ public class MyWorld extends World
 
 </details>
 
+
 ## Rozšíření 1: Různá rychlost vloček
 
-Pokaždé, když se vločka přesune na horní okraj obrazovky, nastav jí náhodnou rychlost od 1 do 4&nbsp;px na jeden pohyb.
+Pokaždé, když se vločka přesune na horní okraj obrazovky, nastav jí náhodnou rychlost od 1 do 4&nbsp;px.
 
 <details><summary>Nápověda: Postup<summary>
+
 Využij kódu pro nastavení rychlosti z&nbsp;předchozích hodin. 
  - Přidej vločce číselný atribut `rychlost`.
  - Každá vločka si v&nbsp;konstruktoru nastaví náhodnou rychlost.
  - Připrav metodu `setRychlost(novaRychlost)`, která nastaví rychlost podle parametru.
  - Při každém přesunu vločky na horní okraj obrazovky zavolej `setRychlost()`.
+
 </details>
 
 <details><summary>Nápověda: Kód<summary>
@@ -170,3 +175,4 @@ Jakmile se vločky dotknou dolního okraje obrazovky, zůstanou na místě a&nbs
 K umisťování vloček si ve světě Greenfootu (world) připrav metodu „umísti vločku“: 
  - V&nbsp;metodě vytvoř dvě instance třídy „vločka“.
  - Obě vločky budou umístěny na horním okraji obrazovky a&nbsp;na náhodné pozici na ose X.
+ -->
