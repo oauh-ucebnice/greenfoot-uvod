@@ -42,7 +42,7 @@
 
  - [Kapitola 3.3: Zápis podmínek](030_promenne-podminky-cykly/030_podminky.md)
  
- - [Kapitola 3.4: Projekt: Sněžení](030_promenne-podminky-cykly/040_prj-snezeni-1.md)
+ - [Kapitola 3.4: Projekt: Sněžení](030_promenne-podminky-cykly/040_prj-snezeni.md)
  
  - [Kapitola 3.5: Projekt: Ping pong](030_promenne-podminky-cykly/045_prj-pingpong.md)
  

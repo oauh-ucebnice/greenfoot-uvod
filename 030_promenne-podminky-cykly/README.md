@@ -6,7 +6,7 @@
 
  - [Kapitola 3.3: Zápis podmínek](030_podminky.md)
  
- - [Kapitola 3.4: Vyzkoušej si: Sněžení](040_prj-snezeni-1.md)
+ - [Kapitola 3.4: Vyzkoušej si: Sněžení](040_prj-snezeni.md)
 
  - [Kapitola 3.5: Projekt: Ping pong](045_prj-pingpong.md)
  
