@@ -45,6 +45,7 @@ Umísti do světa dvě vločky:
 <details><summary>Druhá nápověda: Kód</summary>
 
 Třída `Vlocka`:
+
 ```java
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
@@ -73,6 +74,7 @@ public class Vlocka extends Actor
 ```
 
 Třída `SnezeniWorld`:
+
 ```java
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
@@ -97,14 +99,16 @@ public class MyWorld extends World
 
 </details>
 
+---
 
 ## Rozšíření 1: Různá rychlost vloček
 
 Pokaždé, když se vločka přesune na horní okraj obrazovky, nastav jí náhodnou rychlost od 1 do 4&nbsp;px.
 
-<details><summary>Nápověda: Postup<summary>
+<details><summary>Nápověda k rozšíření 1: Postup<summary>
 
 Využij kódu pro nastavení rychlosti z&nbsp;předchozích hodin. 
+
  - Přidej vločce číselný atribut `rychlost`.
  - Každá vločka si v&nbsp;konstruktoru nastaví náhodnou rychlost.
  - Připrav metodu `setRychlost(novaRychlost)`, která nastaví rychlost podle parametru.
@@ -112,7 +116,8 @@ Využij kódu pro nastavení rychlosti z&nbsp;předchozích hodin.
 
 </details>
 
-<details><summary>Nápověda: Kód<summary>
+
+<details><summary>Nápověda k&nbsp;rozšíření 1: Kód<summary>
 
 Stačí upravit kód třídy „vločka“:
 
@@ -154,25 +159,29 @@ public class Vlocka extends Actor
 </details>
 
 
-<!--
-Atributy vločky:
- - „Aktivní“… logická hodnota, na začátku „pravda“.
-Chování vločky: 
-Dokud má atribut „aktivní“ hodnotu „pravda“:
- - Vločka padá dolů.
- - Jakmile se vločka dotkne okraje obrazovky (`isAtEdge()`), zavolá metodu „umísti vločku“ světa a nastaví atribut „aktivní“ na „nepravda“.
-Pro volání metody „umísti vločku“ je třeba nejprve získat aktuální svět:
-    ```java
-    MyWorld svet = (MyWorld) this.getWorld();
-    ```
+---
 
 ## Rozšíření 2:
 
 Jakmile se vločky dotknou dolního okraje obrazovky, zůstanou na místě a&nbsp;dále se již nepohybují. Zároveň se na horním okraji obrazovky objeví další dvě vločky na náhodné souřadnici `x`.
 
-<details><summary>Nápověda k&nbsp;rozšíření 1: Postup</summary>
-</details>
+<details><summary>Nápověda k&nbsp;rozšíření 2: Postup</summary>
+
 K umisťování vloček si ve světě Greenfootu (world) připrav metodu „umísti vločku“: 
  - V&nbsp;metodě vytvoř dvě instance třídy „vločka“.
  - Obě vločky budou umístěny na horním okraji obrazovky a&nbsp;na náhodné pozici na ose X.
- -->
+
+Atributy vločky:
+ - „Aktivní“… logická hodnota, na začátku „pravda“.
+
+Chování vločky: Dokud má atribut „aktivní“ hodnotu „pravda“:
+ - Vločka padá dolů.
+ - Jakmile se vločka dotkne okraje obrazovky (`isAtEdge()`), zavolá metodu „umísti vločku“ světa a nastaví atribut „aktivní“ na „nepravda“.
+
+Pro volání metody „umísti vločku“ je třeba nejprve získat aktuální svět:
+```java
+MyWorld svet = (MyWorld) this.getWorld();
+```
+
+
+</details>
