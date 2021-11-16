@@ -105,7 +105,7 @@ public class MyWorld extends World
 
 Pokaždé, když se vločka přesune na horní okraj obrazovky, nastav jí náhodnou rychlost od 1 do 4&nbsp;px.
 
-<details><summary>Nápověda k rozšíření 1: Postup<summary>
+<details><summary>Nápověda k rozšíření 1: Postup</summary>
 
 Využij kódu pro nastavení rychlosti z&nbsp;předchozích hodin. 
 
@@ -117,7 +117,7 @@ Využij kódu pro nastavení rychlosti z&nbsp;předchozích hodin.
 </details>
 
 
-<details><summary>Nápověda k&nbsp;rozšíření 1: Kód<summary>
+<details><summary>Nápověda k&nbsp;rozšíření 1: Kód</summary>
 
 Stačí upravit kód třídy „vločka“:
 
