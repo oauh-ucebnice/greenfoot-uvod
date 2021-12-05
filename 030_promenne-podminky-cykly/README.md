@@ -15,3 +15,5 @@
  - [Kapitola 3.7: Cyklus `while`](060_while.md)
  
  - [Kapitola 3.8: Komentáře](070_komentare.md)
+
+ - [Projekt: Mnohoúhelníky](080_prj-mnohouhelniky.md)

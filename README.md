@@ -52,6 +52,8 @@
  
  - [Kapitola 3.8: Komentáře](030_promenne-podminky-cykly/070_komentare.md)
 
+ - [Projekt: Mnohoúhelníky](030_promenne-podminky-cykly/080_prj-mnohouhelniky.md)
+
 ---
 ## [Část 4: Knihovna Greenfoot](040_greenfoot/)
 
