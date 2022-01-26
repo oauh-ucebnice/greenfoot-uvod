@@ -1,17 +1,13 @@
 # Detekce kolize s aktérem
 
-## Detekce kolize
-
 Pokud potřebuješ zjistit, jestli se aktér (předmět ve hře) srazil s&nbsp;jiným aktérem, můžeš použít metodu `isTouching` třídy `Actor`. 
-
-> Protože je to metoda našeho aktéra, voláme ji pomocí klíčového slova `this`: `this.isTouching(...)`.
 
 Jako parametr musíš metodě předat buď:
  - `null` &hellip; detekujete srážku s&nbsp;jakýmkoli aktérem/objektem.
  - `NazevTridy.class` … detekuje srážky jen s&nbsp;objekty třídy s&nbsp;daným názvem.
 
 ## Příklad: Sbírání balónků
-Jako příklad uvedeme hru, se míček otočí o&nbsp;180&nbsp;°, kdykoli narazí na zeď:
+Jako příklad uvedeme hru, se míček otočí o&nbsp;180&nbsp;°, kdykoli narazí na zeď (dotkne se aktéra třídy `Zed`):
 
 ```java
 public class Micek
@@ -59,6 +55,8 @@ public class Micek
 > Všimni si, že detekci kolize můžeme provést v&nbsp;libovolném z&nbsp;kolidujících objektů. Záleží jen na naší volbě a&nbsp;na tom, co se nám více hodí. 
 >
 > Pokud například chceme ve třídě `Hrac` počítat body za ulovené klokany, je lepší detekci kolize provést ve třídě `Hrac`, protože tam máme k&nbsp;dispozici atribut `pocetBodu`.
+>
+> Naopak pokud hráč v&nbsp;důsledku kolize nic nedělá, ale klokan si má připočíst trestný bod, je praktičtější detekovat kolizi ve třídě `Klokan`, kde máme k&nbsp;dispozici atribut `trestneBody`.
 
 
 ## Úkol: Air Race!
