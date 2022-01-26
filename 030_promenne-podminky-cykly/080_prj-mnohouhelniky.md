@@ -8,7 +8,7 @@
 ## Zadání
  - Vytvoř projekt, kde bude na obrazovce rozmístěn stanovený počet aktérů. Počet aktérů bude uložen v&nbsp;atributu světa. Na začátek použij jako počet aktérů hodnotu 8.
  - Aktéři budou rozmístěni vodorovně uprostřed obrazovky a&nbsp;budou mezi nimi rovnoměrné rozestupy.
-- Každý aktér se vždy posunuje 10 kol hry vpřed o 20&nbsp;pixelů. Na konci 10 kola hry se otočí o&nbsp;120&nbsp;° vlevo. Aktéři tedy budou obíhat rovnoramenný trojúhelník.
+- Každý aktér se posunuje deset kol hry vpřed vždy o&nbsp;20&nbsp;pixelů. Na konci desátého kola hry se otočí o&nbsp;120&nbsp;° vlevo. Aktéři tedy budou obíhat rovnoramenný trojúhelník.
 - Úhel otočení ulož do atributu aktéra a&nbsp;vytvoř přístupovou metodu &nbsp;_set otočení_ tak, aby bylo možné měnit úhel otočení.
 
 > ## Poznámka:
