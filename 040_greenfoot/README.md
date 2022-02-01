@@ -14,6 +14,8 @@ Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si u
 
  - [Kapitola 4.5 Čtení pokynů z&nbsp;klávesnice: spuštění akce](050_klavesnice-akce.md)
 
+ - [Kapitola 4.5a Projekt: „Zažeň kraba!“](055_prj-zazen-kraba.md)
+
  - [Kapitola 4.6 Detekce kolize](060_kolize.md)
 
  - [Kapitola 4.7 Kliknutí na aktéra](070_kliknuti.md)
