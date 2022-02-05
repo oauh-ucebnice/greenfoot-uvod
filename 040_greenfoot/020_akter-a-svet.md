@@ -20,6 +20,11 @@ Metody, které můžeme využít u&nbsp;světa:
  - `getWidth()`, `getHeight()` &hellip; zjištění rozměrů světa
  - `addObject(akter, x, y)` &hellip; přidání aktéra do světa
  - `removeObject(akter)` &hellip; vyjmutí aktéra ze světa
+ - `showText(text, x, y)` &hellip; zobrazí zadaný text na uvedených souřadnicích. Například: 
+    ```java
+    getWorld().showText("Game over", getWidth()/2, getHeight()/2);
+    Greenfoot.stop();
+    ```
 
 
 ## Další funkce
