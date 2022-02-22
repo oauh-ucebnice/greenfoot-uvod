@@ -46,7 +46,20 @@ public class Micek
 
  - `getIntersectingObjects(NazevTridy.class)` &hellip; vrací seznam objektů, které kolidují s&nbsp;naším aktérem.
 
-	Můžeme tedy například všem objektům připočíst trestný bod.
+	Můžeme tedy například všem objektům připočíst trestný bod, nebo je posunout:
+
+	```java
+	List<Zaba> seznamZab = getIntersectingObjects(Zaba.class);
+	for (Zaba zaba : seznamZab) {
+		zaba.move(100);
+	}
+	```
+
+	Na začátek třídy musíme doplnit import třídy `List`:
+
+	```java
+	import java.util.List;
+	```
 
  - `getOneIntersectingObject(NazevTridy.class)` &hellip; vrací jeden kolidující objekt. Pokud žádný objekt nekoliduje, vrací `null`.
 
@@ -57,6 +70,12 @@ public class Micek
 > Pokud například chceme ve třídě `Hrac` počítat body za ulovené klokany, je lepší detekci kolize provést ve třídě `Hrac`, protože tam máme k&nbsp;dispozici atribut `pocetBodu`.
 >
 > Naopak pokud hráč v&nbsp;důsledku kolize nic nedělá, ale klokan si má připočíst trestný bod, je praktičtější detekovat kolizi ve třídě `Klokan`, kde máme k&nbsp;dispozici atribut `trestneBody`.
+
+## Úkol: Past
+
+1. Vytvoř panáčka, který se pohybuje zároveň s&nbsp;kurzorem myši.
+2. Vytvoř druhého aktéra (kámen), který je na místě a&nbsp;nehýbe se.
+3. Při doteku panáčka s&nbsp;kamenem se vypíše „Game over“ a skončí hra.
 
 
 ## Úkol: Air Race!
