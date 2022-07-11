@@ -137,10 +137,11 @@ Zkusme nyní do kódu něco přidat, ať si vyzkoušíme, že to bude opravdu fu
 
         Ryba ryba = new Ryba();        
         this.addObject(ryba, 300, 200);
+        ryba.turn(45);
     }
 ```
 
-Jak asi správně tušíš, když si kód přečteš, tento kód vytvoří a&nbsp;umístí novou rybu. Když nyní klikneš na tlačítko „Compile“, na hrací ploše by se měla objevit ryba uprostřed obrazovky a&nbsp;měla by začít vykonávat to, co je popsáno v&nbsp;její metodě `act()`. 
+Jak asi správně tušíš, když si kód přečteš, tento kód vytvoří a&nbsp;umístí novou rybu a otočí ji o 45&nbsp;° ve směru hodinových ručiček. Když nyní klikneš na tlačítko „Compile“, na hrací ploše by se měla objevit ryba uprostřed obrazovky a&nbsp;měla by začít vykonávat to, co je popsáno v&nbsp;její metodě `act()`. 
 
 Kdykoli nyní restartujete hru tlačítkem „Restart“, ryba se vždy vrátí zpět doprostřed obrazovky.
 
@@ -153,3 +154,14 @@ Ve skutečnosti mohou mít i&nbsp;aktéři konstruktor a&nbsp;i&nbsp;ve světě 
 ## Nefunguje mi to!
 
 Pokud ti kód nefunguje, oslov svého učitele nebo kamaráda a&nbsp;najděte chybu. Opravováním chyb se učíš najvíc! Pamatuj, programování je řešení problémů a&nbsp;to se potřebuješ naučit!
+
+## Úkol: Otáčející se ryba
+Zkus zajistit, aby se ryba neustále otáčela na místě.
+
+## Výzva: Zkus zajistit, aby ryba cestovala po kruhu
+
+<details><summary>Nápověda</summary>
+
+Když rybu v&nbsp;každém kroku kousek posuneš a kousek pootočíš, výsledný efekt bude, že ryba bude cestovat po kruhu.
+
+</details>
