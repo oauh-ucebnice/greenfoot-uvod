@@ -11,9 +11,13 @@
  - [Kapitola 3.5: Projekt: Ping pong](045_prj-pingpong.md)
  
  - [Kapitola 3.6: Cyklus `for`](050_for.md)
+
+ - [Kapitola 3.7: Náhodná čísla](055_random.md)
  
- - [Kapitola 3.7: Cyklus `while`](060_while.md)
+ - [Kapitola 3.8: Cyklus `while`](060_while.md)
  
- - [Kapitola 3.8: Komentáře](070_komentare.md)
+ - [Kapitola 3.9: Komentáře](070_komentare.md)
 
  - [Projekt: Mnohoúhelníky](080_prj-mnohouhelniky.md)
+
+ - [Projekt: Hemžení](090_prj-hemzeni.md)
