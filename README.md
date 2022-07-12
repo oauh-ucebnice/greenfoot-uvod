@@ -56,7 +56,7 @@
 
  - [Projekt: Mnohoúhelníky](030_promenne-podminky-cykly/080_prj-mnohouhelniky.md)
 
- - [Projekt: Hemžení](090_prj-hemzeni.md)
+ - [Projekt: Hemžení](030_promenne-podminky-cykly/090_prj-hemzeni.md)
 
 ---
 ## [Část 4: Knihovna Greenfoot](040_greenfoot/)
