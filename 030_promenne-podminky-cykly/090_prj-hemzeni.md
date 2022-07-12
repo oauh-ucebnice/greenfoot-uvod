@@ -16,7 +16,7 @@
 -->
 
 ## Výzva
-Zkus zařídit, aby se aktéři od okraje odrazili tak, že úhel dopadu bude roven úhlu odrazu.<br />(M)
+Zkus zařídit, aby se aktéři od okraje odrazili tak, že úhel dopadu bude roven úhlu odrazu.<br />
  
 <details><summary>První nápověda: Odraz od stěn</summary>
 
