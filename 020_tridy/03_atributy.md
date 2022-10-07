@@ -8,7 +8,7 @@ Postupujeme úplně stejně jako při vytváření proměnných, jen proměnnou 
 ```java
 public class NazevTridy
 {
-    TypPromenne nazevPromenne;
+    DatovyTypAtributu nazevAtributu;
 }
 ```
 
