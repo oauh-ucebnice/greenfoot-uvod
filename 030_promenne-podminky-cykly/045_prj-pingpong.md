@@ -7,13 +7,15 @@ Vytvoř hru v&nbsp;Greenfootu, ve které budou na začátku na obrazovce dva obj
 
 <details><summary>Nápověda: Otočení míčku</summary>
 
-    Pro otočení míčku hned při jeho vytvoření můžeš u&nbsp;druhého míčku využít konstruktor třídy („metodu“, která se zavolá při vytvoření objektu dané třídy). 
-
-    Konkrétně u&nbsp;druhého míčku chcete, aby se jednou hned po vytvoření objektu otočil směrem dolů.
+Pro otočení míčku hned při jeho vytvoření můžeš u&nbsp;druhého míčku využít konstruktor třídy („metodu“, která se zavolá při vytvoření objektu dané třídy). 
+Konkrétně u&nbsp;druhého míčku chceš, aby se jednou hned po vytvoření objektu otočil směrem dolů.
     
-    U&nbsp;aktérů se sice konstruktor nevytváří automaticky, ale můžete si ho zapsat ručně. Najděte si kapitolu o&nbsp;konstruktorech.
+U&nbsp;aktérů se sice konstruktor nevytváří automaticky, ale můžete si ho zapsat ručně. Najdi si [kapitolu o&nbsp;konstruktorech](../020_tridy/04_konstruktor.md).
+
 </details>
 
 ## Výzva: Odraz od okraje obrazovky
 
-Zkus vytvořit třetí objekt, který se bude na začátku pohybovat šikmo vzhůru. Při dotyku okraje obrazovky se „odrazí“ podle pravidla, že úhel dopadu je roven úhlu odrazu.
+1. Zkus vytvořit třetí objekt, který se bude na začátku pohybovat šikmo vzhůru. Při dotyku okraje obrazovky se „odrazí“ podle pravidla, že úhel dopadu je roven úhlu odrazu.
+2. Zkus první dva aktéry realizovat jednou třídou. Míček se bude chovat různě podle toho, jestli se dotýká horního, dolního, nebo jiného okraje obrazovky. (V&nbsp;tomto případě nejspíš nevyužiješ konstruktor míčku a budeš míček otáčet při jeho umístění do světa ručně.)
+3. S&nbsp;využitím metody `getRotation()` zkus všechny tři míčky realizovat jednou jedinou třídou.
