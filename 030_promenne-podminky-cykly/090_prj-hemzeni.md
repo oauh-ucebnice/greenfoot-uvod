@@ -2,6 +2,7 @@
 
 ## Co si procvičíš?
  - podmíněné příkazy
+ - zápis cyklu
  - generování náhodných čísel
 
 ## Zadání
