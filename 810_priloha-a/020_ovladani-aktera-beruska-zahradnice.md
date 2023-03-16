@@ -25,7 +25,10 @@ Zároveň si procvičíte pojmy z&nbsp;oblasti objektového programování a&nbs
  - Zápis konstruktoru
  - Zápis metod
 
-## Postup – první část: Květina
+## Nápověda
+
+<details><summary>Postup – první část: Květina</summary>
+
  1. Vytvořte v&nbsp;Greenfootu nový projekt (scenario) s&nbsp;názvem _Beruška_.
  2. Vytvořte třídu s&nbsp;názvem _Květina_ – bude potomkem (subclass) třídy `Actor`. Nastavte jí vhodný obrázek.
  3. Květina nebude využívat metodu `act`.
@@ -39,9 +42,11 @@ Zároveň si procvičíte pojmy z&nbsp;oblasti objektového programování a&nbs
       ```
  
  5. Květina bude mít konstruktor s&nbsp;jedním parametrem _velikost_ (bude to celé číslo).
-    V&nbsp;kódu konstruktoru zavolej metodu _nastav velikost_ a&nbsp;jako parametr jí dej náhodné číslo od 20&nbsp;do 120.
+    V&nbsp;kódu konstruktoru zavolej metodu _nastav velikost_ a&nbsp;jako parametr jí dej náhodné číslo od `20`&nbsp;do `120`.
 
-## Postup – druhá část: Beruška a&nbsp;její pohyb
+</details>
+
+<details><summary>Postup – druhá část: Beruška a&nbsp;její pohyb</summary>
 
  5. Vytvořte třídu s&nbsp;názvem `Beruška` – bude potomkem (subclass) třídy Actor.
 
@@ -66,7 +71,9 @@ Zároveň si procvičíte pojmy z&nbsp;oblasti objektového programování a&nbs
     1. Zavolá metodu _pohyb k&nbsp;myši_.
     2. Zavolá metodu _mám sázet_.
 
-## Postup – třetí část: svět hry
+</details>
+
+<details><summary>Postup – třetí část: svět hry</summary>
 
  9. Vytvořte třídu s&nbsp;názvem _Beruška World_ – bude potomkem (subclass) třídy World. Jako pozadí nastavte vhodný obrázek.
 
@@ -74,7 +81,10 @@ Zároveň si procvičíte pojmy z&nbsp;oblasti objektového programování a&nbs
     Vytvořte instanci třídy Beruška a&nbsp;umístěte ji doprostřed hrací plochy. 
     
         Zjištění poloviny hrací plochy:
+
         ```java 
         int x = this.getWidth()/2;
         int y = this.getHeight()/2;
         ```
+
+</details>
