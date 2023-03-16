@@ -25,7 +25,7 @@ Máš si důkladně zopakovat základní programátorské konstrukce (cykly, pod
 
 ## Nápověda
 
-details><summary>Postup – první část: Projekt a&nbsp;pomocné třídy</summary>
+<details><summary>Postup – první část: Projekt a&nbsp;pomocné třídy</summary>
 
  1. Vytvořte v&nbsp;Greenfootu nový projekt (scenario).
 
@@ -54,7 +54,7 @@ details><summary>Postup – první část: Projekt a&nbsp;pomocné třídy</summ
         (Nastaví jako obrázek aktéra text „Game Over“ velikosti `30` bodů. Text bude červený na černém pozadí.)
 </details>
 
-details><summary>Postup – druhá část: Svět hry a&nbsp;stromy</summary>
+<details><summary>Postup – druhá část: Svět hry a&nbsp;stromy</summary>
  4. Vytvořte třídu s&nbsp;názvem AutíčkoWorld – bude potomkem (subclass) třídy Actor. Jako pozadí nastavte obrázek AutickoPozadi.png z&nbsp;balíčku _Resources_, který máte k&nbsp;této knize.
 
  5. V&nbsp;konstruktoru třídy _AutíčkoWorld_ proveďte:
@@ -64,7 +64,7 @@ details><summary>Postup – druhá část: Svět hry a&nbsp;stromy</summary>
 </details>
 
 
-details><summary>Postup – třetí část: Třída autíčko</summary>
+<details><summary>Postup – třetí část: Třída autíčko</summary>
 
  6. Vytvořte třídu s&nbsp;názvem Autíčko – bude potomkem (subclass) třídy `Actor`. Při vytváření třídy zvolte vhodný obrázek.
 
