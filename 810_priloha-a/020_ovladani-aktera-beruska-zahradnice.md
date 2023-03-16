@@ -7,7 +7,7 @@
 > Nepouštějte se do tohoto úkolu, dokud tyto věci nemáte zvládnuté z&nbsp;předchozích kapitol!
 
 ## Motto:
-Vyrobte hru, kde se bude beruška pohybovat vždy směrem ke kurzoru myši. Při stisku klávesy beruška zasadí květinu na pozici, na které právě je.
+Vyrobte hru, kde se bude beruška pohybovat vždy směrem ke kurzoru myši. Při stisku klávesy beruška zasadí květinu na pozici, na které právě je. Kytičky budou mít náhodnou velikost &mdash; některé budou větší a některé menší.
 
 ![Příklad Beruška zahradnice](../img/hra_beruska-zahradnice.png)
 
@@ -16,6 +16,9 @@ V tomto úkolu si máte procvičit ovládání her v&nbsp;Greenfootu:
  - Čtení vstupu z&nbsp;klávesnice
  - Zjištění pozice myši
  - Zjištění rozměru hrací plochy
+
+ Navíc se naučíte:
+ - Nastavení velikosti obrázku
 
 Zároveň si procvičíte pojmy z&nbsp;oblasti objektového programování a&nbsp;jejich zápis v&nbsp;Javě:
  - Zápis tříd
@@ -26,14 +29,17 @@ Zároveň si procvičíte pojmy z&nbsp;oblasti objektového programování a&nbs
  1. Vytvořte v&nbsp;Greenfootu nový projekt (scenario) s&nbsp;názvem _Beruška_.
  2. Vytvořte třídu s&nbsp;názvem _Květina_ – bude potomkem (subclass) třídy `Actor`. Nastavte jí vhodný obrázek.
  3. Květina nebude využívat metodu `act`.
- 4. Květina bude mít metodu _nastav velikost_. Ta dostane jeden číselný parametr a&nbsp;nastaví velikost obrázku na hodnotu parametru vynásobenou číslem `50`.
+ 4. Květina bude mít metodu _nastav velikost_. Ta dostane jeden číselný parametr a&nbsp;nastaví velikost obrázku na hodnotu parametru (velikost na souřadnicích X i Y bude stejná).  
+   Pro změnu velikosti obrázku použij kód:
 
-       ```java
-      this.setImage(this.getImage().scale(novaVelikostX, novaVelikostY));
+      ```java
+      GreenfootImage image = this.getImage();
+      image.scale(novaVelikostX, novaVelikostY)
+      this.setImage(image);
       ```
  
  5. Květina bude mít konstruktor s&nbsp;jedním parametrem _velikost_ (bude to celé číslo).
-    V&nbsp;kódu konstruktoru zavolej metodu _nastav velikost_ a&nbsp;jako parametr jí dej náhodné číslo od 1&nbsp;do 10.
+    V&nbsp;kódu konstruktoru zavolej metodu _nastav velikost_ a&nbsp;jako parametr jí dej náhodné číslo od 20&nbsp;do 120.
 
 ## Postup – druhá část: Beruška a&nbsp;její pohyb
 
