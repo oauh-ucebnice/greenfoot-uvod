@@ -55,10 +55,11 @@ Máš si důkladně zopakovat základní programátorské konstrukce (cykly, pod
 </details>
 
 <details><summary>Postup – druhá část: Svět hry a&nbsp;stromy</summary>
+
  4. Vytvořte třídu s&nbsp;názvem AutíčkoWorld – bude potomkem (subclass) třídy Actor. Jako pozadí nastavte obrázek AutickoPozadi.png z&nbsp;balíčku _Resources_, který máte k&nbsp;této knize.
 
  5. V&nbsp;konstruktoru třídy _AutíčkoWorld_ proveďte:
-    Vytvořte pomocí cyklu `5`&nbsp;instancí třídy Strom a&nbsp;umístěte je do světa na souřadnice:
+    Vytvořte pomocí cyklu pět instancí třídy _Strom_ a&nbsp;umístěte je do světa na souřadnice:
     X&nbsp;náhodné číslo od `0`&nbsp;do `100`.
     Y&nbsp;náhodné číslo od `0`&nbsp;do souřadnice dolního okraje obrazovky (`this.getHeight()`).
 </details>
