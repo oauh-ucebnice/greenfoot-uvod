@@ -89,7 +89,7 @@ Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si u
  - [Kapitola 4.11 A&nbsp;co dál?](040_greenfoot/110_co-dal.md)
 
 ---
-## [Část 5: Shrnutí OOP a&nbsp;parametry metod](050_shrnuti/)
+## [Část 5: Shrnutí OOP a&nbsp;parametry metod](050_oop/)
 
 <details><summary>Shrneme a&nbsp;zobecníme vaše dosavadní znalosti a&nbsp;doplníme použití parametrů a&nbsp;návratové hodnoty u&nbsp;metod.</summary>
 
@@ -97,9 +97,9 @@ V&nbsp;této části knihy shrneme a&nbsp;zobecníme vaše dosavadní znalosti z
 
 Doplníme také možnost použití parametrů a&nbsp;návratové hodnoty u&nbsp;metod, které jsme sice mnohokrát využívali, ale zatím je neumíme zapsat u&nbsp;svých vlastních metod a&nbsp;konstruktorů.</details>
 
- - [Kapitola 5.1 Více o&nbsp;objektovém programování](050_shrnuti/010_oop.md)
+ - [Kapitola 5.1 Více o&nbsp;objektovém programování](050_oop/010_oop.md)
 
- - [Kapitola 5.2 Parametry a&nbsp;návratové hodnoty](050_shrnuti/020_parametry.md)
+ - [Kapitola 5.2 Parametry a&nbsp;návratové hodnoty](050_oop/020_parametry.md)
 
 ---
 ## [Příloha A: Komplexní úlohy](810_priloha-a/)
