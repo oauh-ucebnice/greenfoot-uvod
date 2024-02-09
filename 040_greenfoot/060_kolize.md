@@ -65,6 +65,20 @@ public class Micek
 
 	Pokud objektů koliduje více, dostaneme jeden z&nbsp;nich, nevíme ale který.
 
+	```java
+	Actor kolidujiciAkter = getIntersectingObjects(null);
+	kolidujiciAkter.turn(30);
+	```
+ 
+	```java
+	Zaba kolidujiciZaba = (Zaba) getIntersectingObjects(Zaba.class);
+	kolidujiciZaba.skoc();
+	```
+
+ 	Všimni si, že pokud chceš volat specifické metody třídy `Zaba` (takové, které nejsou ve třídě `Actor`), musíš použít _přetypování_ tak, jak je to uvedeno ve druhém příkladu.
+
+
+
 > Všimni si, že detekci kolize můžeme provést v&nbsp;libovolném z&nbsp;kolidujících objektů. Záleží jen na naší volbě a&nbsp;na tom, co se nám více hodí. 
 >
 > Pokud například chceme ve třídě `Hrac` počítat body za ulovené klokany, je lepší detekci kolize provést ve třídě `Hrac`, protože tam máme k&nbsp;dispozici atribut `pocetBodu`.
