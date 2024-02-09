@@ -63,16 +63,22 @@ public class Micek
 
  - `getOneIntersectingObject(NazevTridy.class)` &hellip; vrací jeden kolidující objekt. Pokud žádný objekt nekoliduje, vrací `null`.
 
-	Pokud objektů koliduje více, dostaneme jeden z&nbsp;nich, nevíme ale který.
+	Pokud objektů koliduje více, dostaneme jeden z&nbsp;nich, nevíme ale který. Pokud nekoliduje žádný objekt daného typu, dostaneme `null`.
 
 	```java
-	Actor kolidujiciAkter = getIntersectingObjects(null);
-	kolidujiciAkter.turn(30);
+        Actor kolidujiciAkter = getOneIntersectingObject(null);
+        if (kolidujiciAkter != null)
+        {
+            kolidujiciAkter.turn(30);
+        }
 	```
  
 	```java
-	Zaba kolidujiciZaba = (Zaba) getIntersectingObjects(Zaba.class);
-	kolidujiciZaba.skoc();
+        Zaba kolidujiciZaba = (Zaba) getOneIntersectingObject(Zaba.class);
+        if (kolidujiciZaba != null) 
+        {
+            kolidujiciZaba.skoc();
+        }
 	```
 
  	Všimni si, že pokud chceš volat specifické metody třídy `Zaba` (takové, které nejsou ve třídě `Actor`), musíš použít _přetypování_ tak, jak je to uvedeno ve druhém příkladu.
