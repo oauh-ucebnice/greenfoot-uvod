@@ -6,7 +6,7 @@ Jako parametr musíš metodě předat buď:
  - `null` &hellip; detekujete srážku s&nbsp;jakýmkoli aktérem/objektem.
  - `NazevTridy.class` … detekuje srážky jen s&nbsp;objekty třídy s&nbsp;daným názvem.
 
-## Příklad: Sbírání balónků
+## Příklad: Odrážející se balónek
 Jako příklad uvedeme hru, se míček otočí o&nbsp;180&nbsp;°, kdykoli narazí na zeď (dotkne se aktéra třídy `Zed`):
 
 ```java
