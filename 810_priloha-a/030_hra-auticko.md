@@ -55,7 +55,7 @@ details><summary>Postup – první část: Projekt a&nbsp;pomocné třídy</summ
 </details>
 
 details><summary>Postup – druhá část: Svět hry a&nbsp;stromy</summary>
- 4. Vytvořte třídu s&nbsp;názvem AutíčkoWorld – bude potomkem (subclass) třídy Actor. Jako pozadí nastavte obrázek AutickoPozadi.png z&nbsp;balíčku _Resources_, který máte k&nbsp;této knize.
+ 4. Vytvořte třídu s&nbsp;názvem AutíčkoWorld – bude potomkem (subclass) třídy `World`. Jako pozadí nastavte obrázek `AutickoPozadi.png` z&nbsp;balíčku _Resources_, který máte k&nbsp;této knize.
 
  5. V&nbsp;konstruktoru třídy _AutíčkoWorld_ proveďte:
     Vytvořte pomocí cyklu `5`&nbsp;instancí třídy Strom a&nbsp;umístěte je do světa na souřadnice:
