@@ -191,7 +191,7 @@ public class Hroch
     String jmeno;
     int vaha;
 
-    public NazevTridy(String jmenoHrocha, int vahaHrocha)
+    public Hroch(String jmenoHrocha, int vahaHrocha)
     {
         this.jmeno = jmenoHrocha; 
         // Identifikátor this zde můžeme vynechat.

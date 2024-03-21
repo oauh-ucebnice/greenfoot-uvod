@@ -6,7 +6,7 @@ Jako parametr musíš metodě předat buď:
  - `null` &hellip; detekujete srážku s&nbsp;jakýmkoli aktérem/objektem.
  - `NazevTridy.class` … detekuje srážky jen s&nbsp;objekty třídy s&nbsp;daným názvem.
 
-## Příklad: Sbírání balónků
+## Příklad: Odrážející se balónek
 Jako příklad uvedeme hru, se míček otočí o&nbsp;180&nbsp;°, kdykoli narazí na zeď (dotkne se aktéra třídy `Zed`):
 
 ```java
@@ -63,7 +63,27 @@ public class Micek
 
  - `getOneIntersectingObject(NazevTridy.class)` &hellip; vrací jeden kolidující objekt. Pokud žádný objekt nekoliduje, vrací `null`.
 
-	Pokud objektů koliduje více, dostaneme jeden z&nbsp;nich, nevíme ale který.
+	Pokud objektů koliduje více, dostaneme jeden z&nbsp;nich, nevíme ale který. Pokud nekoliduje žádný objekt daného typu, dostaneme `null`.
+
+	```java
+        Actor kolidujiciAkter = getOneIntersectingObject(null);
+        if (kolidujiciAkter != null)
+        {
+            kolidujiciAkter.turn(30);
+        }
+	```
+ 
+	```java
+        Zaba kolidujiciZaba = (Zaba) getOneIntersectingObject(Zaba.class);
+        if (kolidujiciZaba != null) 
+        {
+            kolidujiciZaba.skoc();
+        }
+	```
+
+ 	Všimni si, že pokud chceš volat specifické metody třídy `Zaba` (takové, které nejsou ve třídě `Actor`), musíš použít _přetypování_ tak, jak je to uvedeno ve druhém příkladu.
+
+
 
 > Všimni si, že detekci kolize můžeme provést v&nbsp;libovolném z&nbsp;kolidujících objektů. Záleží jen na naší volbě a&nbsp;na tom, co se nám více hodí. 
 >

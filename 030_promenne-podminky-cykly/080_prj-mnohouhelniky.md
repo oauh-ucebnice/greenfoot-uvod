@@ -9,7 +9,7 @@
  - Vytvoř projekt, kde bude na obrazovce rozmístěn stanovený počet aktérů. Počet aktérů bude uložen v&nbsp;atributu světa. Na začátek použij jako počet aktérů hodnotu 8.
  - Aktéři budou rozmístěni vodorovně uprostřed obrazovky a&nbsp;budou mezi nimi rovnoměrné rozestupy.
 - Každý aktér se posunuje deset kol hry vpřed vždy o&nbsp;20&nbsp;pixelů. Na konci desátého kola hry se otočí o&nbsp;120&nbsp;° vlevo. Aktéři tedy budou obíhat rovnoramenný trojúhelník.
-- Úhel otočení ulož do atributu aktéra a&nbsp;vytvoř přístupovou metodu &nbsp;_set otočení_ tak, aby bylo možné měnit úhel otočení.
+- Úhel otočení ulož do atributu aktéra, aby bylo možné měnit úhel otočení.
 
 > ## Poznámka:
 >
@@ -51,4 +51,12 @@ Aktéři tedy nebudou vodorovně uprostřed obrazovky, ale první bude v&nbsp;le
 
 ## Výzva: Aktéři opisující různé mnohoúhelníky
 
-První tři aktéři budou obíhat rovnostranný trojúhelník. Další tři budou obíhat čtverec. Další tři budou obíhat rovnostranný pětiúhelník. Pokud budou další, budou následovat šestiúhelníky, sedmiúhelníky atd.
+- První tři aktéři budou obíhat rovnostranný trojúhelník. Další tři budou obíhat čtverec. Další tři budou obíhat rovnostranný pětiúhelník. Pokud budou další, budou následovat šestiúhelníky, sedmiúhelníky atd.
+
+- Do třídy aktéra přidej přístupovou metodu &nbsp;_set otočení_ tak, aby šlo měnit hodnotu úhlu otočení ze světa při vytváření aktéra. Využiješ tady metodu s&nbsp;parametrem viz [Metody s&nbsp;parametry](../050_oop/020_parametry.md).
+
+<details><summary>Nápověda k rozšíření 2: Postup</summary>
+
+ - Při vytváření aktérů a umisťování do světa použij metodu _set otočení_ k nastavení úhlu otáčení každého aktéra. 
+
+</details>
