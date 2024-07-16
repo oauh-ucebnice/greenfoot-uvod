@@ -39,7 +39,7 @@ public class Micek
 			// Odstraň ze světa všechny objekty
 			//  třídy Balonek, které se dotýkají
 			//  kaktusu:
-			this.removeTouching(Balonek.class));
+			this.removeTouching(Balonek.class);
 		}
 	}
 	```
