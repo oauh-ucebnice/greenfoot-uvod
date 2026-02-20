@@ -18,12 +18,14 @@ Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si u
 
  - [Kapitola 4.6 Detekce kolize](060_kolize.md)
 
- - [Kapitola 4.7 Kliknutí na aktéra](070_kliknuti.md)
+ - [Kapitola 4.7 Práce se seznamem](065_kolize-seznam.md)
 
- - [Kapitola 4.8 Vlastní obrázky](080_vlastni-obrazky.md)
+ - [Kapitola 4.8 Kliknutí na aktéra](070_kliknuti.md)
 
- - [Kapitola 4.9 Projekt: Mravenci v&nbsp;letadle](090_projekt-mravenci.md)
+ - [Kapitola 4.9 Vlastní obrázky](080_vlastni-obrazky.md)
 
- - [Kapitola 4.10 Publikování hry](100_publikovani-hry.md)
+ - [Kapitola 4.10 Projekt: Mravenci v&nbsp;letadle](090_projekt-mravenci.md)
 
- - [Kapitola 4.11 A&nbsp;co dál?](110_co-dal.md)
+ - [Kapitola 4.11 Publikování hry](100_publikovani-hry.md)
+
+ - [Kapitola 4.12 A&nbsp;co dál?](110_co-dal.md)
