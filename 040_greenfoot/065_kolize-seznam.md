@@ -25,25 +25,25 @@ seznamJmen.add("Petr");
 seznamCisel.add(5);
 ```
 ## Zjištění počtu prvků
-	```java
-	int pocet = seznamJmen.size();
-	```
+```java
+int pocet = seznamJmen.size();
+```
 ## Získání prvku na určité pozici (pozor, počítá se od nuly!)
-	```java
-	String prvni = seznamJmen.get(0);
-	```
+```java
+String prvni = seznamJmen.get(0);
+```
 ## Odebrání prvku
-	```java
-	seznamJmen.remove("Petr"); // Konkrétní prvek 
-	seznamJmen.remove(0);      // Odebrání na základě pozice
-	seznamJmeno.clear();	   // Odebrání všech prvků
-	```
+```java
+seznamJmen.remove("Petr"); // Konkrétní prvek 
+seznamJmen.remove(0);      // Odebrání na základě pozice
+seznamJmeno.clear();	   // Odebrání všech prvků
+```
 ## Procházení všech prvků v seznamu
-	```java
-	for (Actor akter : seznamJablek) {
-		 jablko.setLocation(Greenfoot.getRandomNumber(500), 100);
-	}
-	```
+```java
+for (Actor akter : seznamJablek) {
+	 jablko.setLocation(Greenfoot.getRandomNumber(500), 100);
+}
+```
 
 ## Kolize s více aktéry zároveň
 
@@ -95,7 +95,6 @@ public class Inventory extends Actor
 }
 ```
 
-<!--
 
 ## Úkol: Rybí transportér
 
@@ -103,6 +102,8 @@ public class Inventory extends Actor
 Ryby se chtějí přesunovat rychleji. Domluvily se tedy s pelikánem, že je bude přepravovat v&nbsp;zobáku. Vytvořte hru, ve které pelikán sbírá ryby. Po stisku mezerníku všechny ryby zase vyskládá na obrazovku před sebe.
 
  ![Hra Rybí transportér!](../img/hra_rybi-transporter.png)
+
+<!--
 
 <details><summary>Nápověda: Postup</summary>
 
