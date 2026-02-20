@@ -95,24 +95,14 @@ public class Inventory extends Actor
 }
 ```
 
-
-## Úkol: Sbírání předmětů
-
 <!--
 
-## Úkol: Air Race!
+## Úkol: Rybí transportér
 
 ### Motivace:
-Vytvořte hru, ve které se letadlo vyhýbá překážkám. Necháme se inspirovat závody Red Bull Air Race, ale úlohu si zjednodušíme – poletíme stále vpřed a&nbsp;budeme se pouze vyhýbat překážkám v&nbsp;podobě majáků.
+Ryby se chtějí přesunovat rychleji. Domluvily se tedy s pelikánem, že je bude přepravovat v&nbsp;zobáku. Vytvořte hru, ve které pelikán sbírá ryby. Po stisku mezerníku všechny ryby zase vyskládá na obrazovku před sebe.
 
-### Cíl:
-Letadlo bude po celou dobu na levém okraji obrazovky. Pomocí šipek nahoru a&nbsp;dolů se bude letadlo posunovat vzhůru a&nbsp;dolů. 
-
-Překážky (majáky) se budou objevovat na pravém okraji obrazovky a&nbsp;budou se pohybovat směrem vlevo. Úkolem hráče je pohybovat letadlem tak, aby se majákům vyhnul. 
-
-Když se letadlo majáku nevyhne a&nbsp;srazí se(nebo se dostane příliš blízko), hra končí.
- 
- ![Hra Air race!](../img/hra_airrace.png)
+ ![Hra Rybí transportér!](../img/hra_rybi-transporter.png)
 
 <details><summary>Nápověda: Postup</summary>
 
