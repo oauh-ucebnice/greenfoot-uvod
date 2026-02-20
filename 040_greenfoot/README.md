@@ -18,7 +18,7 @@ Vyzkoušíš si ovládání aktéra pomocí myši i&nbsp;klávesnice. Také si u
 
  - [Kapitola 4.6 Detekce kolize](060_kolize.md)
 
- - [Kapitola 4.7 Detekce kolize](065_kolize-seznam.md)
+ - [Kapitola 4.7 Práce se seznamem](065_kolize-seznam.md)
 
  - [Kapitola 4.8 Kliknutí na aktéra](070_kliknuti.md)
 

@@ -1,109 +1,104 @@
-# Seznam – kolize s více aktéry (TODO)
+# Práce se seznamem
 
-## Seznam a práce s ním
+Seznam je objekt, která umí uložit více hodnot najednou – například více čísel, textů nebo aktérů. Představ si ho jako řadu při čekání na oběd: každý má své místo (pořadí) a můžeš se na konkrétní místo podívat, někoho přidat nebo odebrat.
+
+## Jak vytvořit seznam?
+
+V&nbsp;Javě použij třídu `ArrayList` a rozhraní `List`. Obojí si musíš na začátku souboru naimportovat:
+
+```java
+import java.util.List;
+import java.util.ArrayList;
+
+// ...
+List<Jablko> seznamJablek = new ArrayList<>();
+List<String> seznamJmen = new ArrayList<>();
+List<Integer> seznamCisel = new ArrayList<>();
+// ...
+```
+Tímto vytvoříš tři prázdné seznamy. Do jednoho můžeš ukládat aktéry třídy `Jablko`, do druhého jména (texty) a do třetího čísla (všimni si, že místo `int` musíš použít `Integer`).
+
+## Přidání prvku do seznamu
+```java
+seznamJablek.add(new Jablko());
+seznamJmen.add("Petr");
+seznamCisel.add(5);
+```
+## Zjištění počtu prvků
+	```java
+	int pocet = seznamJmen.size();
+	```
+## Získání prvku na určité pozici (pozor, počítá se od nuly!)
+	```java
+	String prvni = seznamJmen.get(0);
+	```
+## Odebrání prvku
+	```java
+	seznamJmen.remove("Petr"); // Konkrétní prvek 
+	seznamJmen.remove(0);      // Odebrání na základě pozice
+	seznamJmeno.clear();	   // Odebrání všech prvků
+	```
+## Procházení všech prvků v seznamu
+	```java
+	for (Actor akter : seznamJablek) {
+		 jablko.setLocation(Greenfoot.getRandomNumber(500), 100);
+	}
+	```
 
 ## Kolize s více aktéry zároveň
 
-## Úkol: Sbírání předmětů
+Někdy aktér může kolidovat s více jinými aktéry zároveň. Můžeš si vyžádat seznam kolidujích aktérů:
+```java
+List<Actor> kolidujici = getIntersectingObjects(Actor.class); 	 // beru všechny aktéry
+List<Jablkko> kolidujici = getIntersectingObjects(Jablko.class); // Zajímají mě jen objekty třídy Jablko
+List<Actor> kolidujici = getIntersectingObjects(null);    		 // Nerozlišuji třídu aktérů
+```
 
-<!--
-Pokud potřebuješ zjistit, jestli se aktér (předmět ve hře) srazil s&nbsp;jiným aktérem, můžeš použít metodu `isTouching` třídy `Actor`. 
-
-Jako parametr musíš metodě předat buď:
- - `null` &hellip; detekujete srážku s&nbsp;jakýmkoli aktérem/objektem.
- - `NazevTridy.class` … detekuje srážky jen s&nbsp;objekty třídy s&nbsp;daným názvem.
-
-## Příklad: Odrážející se balónek
-Jako příklad uvedeme hru, se míček otočí o&nbsp;180&nbsp;°, kdykoli narazí na zeď (dotkne se aktéra třídy `Zed`):
+Příklad použití:
 
 ```java
-public class Micek
+import greenfoot.*;
+import java.util.List;
+import java.util.ArrayList;
+
+public class Inventory extends Actor
 {
-	public void act()
-	{
-		// Pokud se dotýkáme objektu třídy Zed,
-		//  otoč se o 180 ° a posune se o 5 px:
-		if (this.isTouching(Zed.class))
-		{
-			turn(180);
-			move(5);
-		}
+    // Seznam na ukládání předmětů:
+    private List<Actor> inventar = new ArrayList<>();
+	private final int ODSTUP = 50; 
+
+    
+    public void act()
+    {
+        MyWorld svet = (MyWorld) getWorld();
+        
+        // Posbírej aktéry
+        List<Actor> kolidujici = getIntersectingObjects(Actor.class);
+        for (Actor predmet : kolidujici) {
+            inventar.add(predmet); // Přidej je do inventáře
+            svet.removeObject(predmet); // Odstraň je ze světa
+        }
+		// Při stisknutí mezerníku je zase vyskládej
+        if ("space".equals(Greenfoot.getKey()))
+        {
+            int poziceX = getX()+2*ODSTUP;
+            int poziceY = getY();
+            // Všechny předměty v inventáři umísti do světa:
+            for (Actor predmet : inventar)
+            {
+                svet.addObject(predmet, poziceX, poziceY);
+                poziceX += ODSTUP;
+            }
+            // Vymaž předměty z inventáře:
+            inventar.clear();
 	}
 }
 ```
 
-## Další metody pro detekci kolize
 
- - `removeTouching(NazevTridy.class)` &hellip; Můžeš také použít metodu `removeTouching(NazevTridy.class)`, která odstraní ze světa všechny objekty třídy `NazevTridy`, které se dotýkají našeho objektu.
-	
-	Jako příklad uveďme kód, kde balónky budou mizet, jakmile se jich dotkne kaktus:
+## Úkol: Sbírání předmětů
 
-	```java
-	public class Kaktus
-	{
-		public void act()
-		{
-			// Odstraň ze světa všechny objekty
-			//  třídy Balonek, které se dotýkají
-			//  kaktusu:
-			this.removeTouching(Balonek.class);
-		}
-	}
-	```
-
- - `getIntersectingObjects(NazevTridy.class)` &hellip; vrací seznam objektů, které kolidují s&nbsp;naším aktérem.
-
-	Můžeme tedy například všem objektům připočíst trestný bod, nebo je posunout:
-
-	```java
-	List<Zaba> seznamZab = getIntersectingObjects(Zaba.class);
-	for (Zaba zaba : seznamZab) {
-		zaba.move(100);
-	}
-	```
-
-	Na začátek třídy musíme doplnit import třídy `List`:
-
-	```java
-	import java.util.List;
-	```
-
- - `getOneIntersectingObject(NazevTridy.class)` &hellip; vrací jeden kolidující objekt. Pokud žádný objekt nekoliduje, vrací `null`.
-
-	Pokud objektů koliduje více, dostaneme jeden z&nbsp;nich, nevíme ale který. Pokud nekoliduje žádný objekt daného typu, dostaneme `null`.
-
-	```java
-        Actor kolidujiciAkter = getOneIntersectingObject(null);
-        if (kolidujiciAkter != null)
-        {
-            kolidujiciAkter.turn(30);
-        }
-	```
- 
-	```java
-        Zaba kolidujiciZaba = (Zaba) getOneIntersectingObject(Zaba.class);
-        if (kolidujiciZaba != null) 
-        {
-            kolidujiciZaba.skoc();
-        }
-	```
-
- 	Všimni si, že pokud chceš volat specifické metody třídy `Zaba` (takové, které nejsou ve třídě `Actor`), musíš použít _přetypování_ tak, jak je to uvedeno ve druhém příkladu.
-
-
-
-> Všimni si, že detekci kolize můžeme provést v&nbsp;libovolném z&nbsp;kolidujících objektů. Záleží jen na naší volbě a&nbsp;na tom, co se nám více hodí. 
->
-> Pokud například chceme ve třídě `Hrac` počítat body za ulovené klokany, je lepší detekci kolize provést ve třídě `Hrac`, protože tam máme k&nbsp;dispozici atribut `pocetBodu`.
->
-> Naopak pokud hráč v&nbsp;důsledku kolize nic nedělá, ale klokan si má připočíst trestný bod, je praktičtější detekovat kolizi ve třídě `Klokan`, kde máme k&nbsp;dispozici atribut `trestneBody`.
-
-## Úkol: Past
-
-1. Vytvoř panáčka, který se pohybuje zároveň s&nbsp;kurzorem myši.
-2. Vytvoř druhého aktéra (kámen), který je na místě a&nbsp;nehýbe se.
-3. Při doteku panáčka s&nbsp;kamenem se vypíše „Game over“ a skončí hra.
-
+<!--
 
 ## Úkol: Air Race!
 
